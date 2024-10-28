@@ -17,7 +17,7 @@
 
 <script setup>
 import { ref } from 'vue';
-import { useActividadesStore } from '../stores/actividades';
+import { useActividadesStore } from '../stores/Actividades';
 
 const store = useActividadesStore();
 const nuevaActividad = ref({
